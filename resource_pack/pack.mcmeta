@@ -1,8 +1,8 @@
 {
   "pack": {
     "pack_format": 69,
-    "min_format": 69.0,
-    "max_format": 69.0,
+    "max_format": 69,
+    "min_format": 69,
     "description": {
       "translate": "ethereal_grove.resource_pack"
     }
