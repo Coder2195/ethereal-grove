@@ -1,0 +1,13 @@
+{
+  "name": "Ethereal Grove",
+  "description": "A fan inspired datapack variant of Twilight Forest mod!",
+
+  "data_pack": {
+    "load": ["data_pack"]
+  },
+  "resource_pack": {
+    "load": ["resource_pack"]
+  },
+
+  "output": "build"
+}
