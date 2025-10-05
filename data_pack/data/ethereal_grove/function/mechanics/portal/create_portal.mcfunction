@@ -5,4 +5,3 @@ execute positioned ~-10 ~-64 ~-10 unless entity @e[type=item_display,tag=etherea
 execute positioned ~-10 ~-64 ~-10 run data modify entity @s data."ethereal_grove:target_raw" set from entity @n[type=item_display,tag=ethereal_grove.portal,dx=20,dy=450,dz=20]
 
 forceload remove ~10 ~10 ~-10 ~-10
-
