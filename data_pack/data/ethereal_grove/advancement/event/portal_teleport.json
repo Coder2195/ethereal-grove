@@ -1,0 +1,23 @@
+{
+  "parent": "ethereal_grove:event/root",
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "ethereal_grove:ethereal_grove"
+      }
+    },
+    "exit": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "ethereal_grove:ethereal_grove",
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "requirements": [["enter", "exit"]],
+  "rewards": {
+    "function": "ethereal_grove:mechanics/portal/post_teleport"
+  }
+}
