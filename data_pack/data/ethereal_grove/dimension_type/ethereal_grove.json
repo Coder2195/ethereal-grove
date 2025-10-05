@@ -17,7 +17,7 @@
     "max_inclusive": 7,
     "min_inclusive": 0
   },
-  "fixed_time": 18000,
+  "fixed_time": 23000,
   "natural": true,
   "piglin_safe": false,
   "respawn_anchor_works": false,
