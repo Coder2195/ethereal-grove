@@ -1,5 +1,9 @@
 {
   "ethereal_grove.pack": "Ethereal Grove",
   "ethereal_grove.data_pack": "A fan inspired datapack of Twilight Forest mod!",
-  "ethereal_grove.resource_pack": "Required resource pack for Ethereal Grove"
+  "ethereal_grove.resource_pack": "Required resource pack for Ethereal Grove",
+  "advancements.ethereal_grove.enter_ethereal_grove.title": "Ethereal!",
+  "advancements.ethereal_grove.enter_ethereal_grove.description": "Enter the Ethereal Grove dimension through the flower and diamond portal.",
+  "advancements.ethereal_grove.root.title": "Ethereal Grove",
+  "advancements.ethereal_grove.root.description": "What ethereal secrets lay here?"
 }

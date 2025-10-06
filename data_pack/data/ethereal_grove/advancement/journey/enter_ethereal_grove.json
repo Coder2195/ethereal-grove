@@ -1,0 +1,27 @@
+{
+  "parent": "ethereal_grove:journey/root",
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "ethereal_grove:ethereal_grove"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "title": {
+      "translate": "advancements.ethereal_grove.enter_ethereal_grove.title"
+    },
+    "description": {
+      "translate": "advancements.ethereal_grove.enter_ethereal_grove.description"
+    },
+    "icon": {
+      "id": "dirt",
+      "components": { "item_model": "ethereal_grove:portal" }
+    },
+    "show_toast": true,
+    "hidden": false,
+    "frame": "task"
+  }
+}

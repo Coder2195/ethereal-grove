@@ -4,7 +4,20 @@
     "settings": "minecraft:overworld",
     "biome_source": {
       "type": "minecraft:multi_noise",
-      "preset": "minecraft:overworld"
+      "biomes": [
+        {
+          "biome": "end_barrens",
+          "parameters": {
+            "continentalness": 1.0,
+            "depth": -0.5,
+            "erosion": 0.69,
+            "humidity": 0.0,
+            "temperature": 0.0,
+            "weirdness": 0.42,
+            "offset": 0.0
+          }
+        }
+      ]
     }
   },
   "type": "ethereal_grove:ethereal_grove"

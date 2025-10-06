@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "title": {
+      "translate": "advancements.ethereal_grove.root.title"
+    },
+    "description": {
+      "translate": "advancements.ethereal_grove.root.description"
+    },
+    "icon": {
+      "id": "dirt",
+      "components": { "item_model": "ethereal_grove:portal" }
+    },
+    "background": "ethereal_grove:block/portal",
+    "show_toast": true,
+    "hidden": false,
+    "frame": "goal"
+  }
+}
