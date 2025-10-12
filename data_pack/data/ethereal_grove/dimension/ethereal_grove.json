@@ -1,19 +1,19 @@
 {
   "generator": {
     "type": "minecraft:noise",
-    "settings": "minecraft:overworld",
+    "settings": "ethereal_grove:ethereal_grove",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "end_barrens",
+          "biome": "ethereal_grove:sparkling_fields",
           "parameters": {
             "continentalness": 1.0,
             "depth": -0.5,
-            "erosion": 0.69,
-            "humidity": 0.0,
+            "erosion": 1.2,
+            "humidity": 0.1,
             "temperature": 0.0,
-            "weirdness": 0.42,
+            "weirdness": 0.314,
             "offset": 0.0
           }
         }
