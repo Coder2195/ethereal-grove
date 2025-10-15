@@ -7,9 +7,9 @@
   "downfall": 0.4,
   "effects": {
     "fog_color": 14074111,
-    "grass_color": 47233,
-    "foliage_color": 47233,
-    "dry_foliage_color": 3454976,
+    "grass_color": 1406261,
+    "foliage_color": 1406261,
+    "dry_foliage_color": 618496,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -21,9 +21,10 @@
     "water_color": 4187364,
     "water_fog_color": 32354,
     "particle": {
-      "probability": 0.008,
+      "probability": 0.002,
       "options": {
-        "type": "cherry_leaves"
+        "type": "tinted_leaves",
+        "color": -16299251
       }
     }
   },
@@ -67,16 +68,7 @@
     ],
     [],
     ["minecraft:spring_water", "minecraft:spring_lava"],
-    [
-      "minecraft:patch_tall_grass_2",
-      "minecraft:patch_bush",
-
-      "ethereal_grove:sparkling_fields/firefly_bushes",
-      "patch_firefly_bush_near_water",
-      "ethereal_grove:sparkling_fields/trees",
-
-      "flower_flower_forest"
-    ],
+    ["minecraft:patch_tall_grass_2", "ethereal_grove:ethereal_grove/trees"],
     ["minecraft:freeze_top_layer"]
   ],
   "has_precipitation": true,
