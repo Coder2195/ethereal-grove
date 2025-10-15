@@ -10,15 +10,30 @@
           "entries": [
             {
               "data": {
-                "Name": "cave_vines"
+                "Name": "light",
+                "Properties": {
+                  "level": "7"
+                }
+              },
+              "weight": 2
+            },
+            {
+              "data": {
+                "Name": "minecraft:vine",
+                "Properties": {
+                  "up": "true"
+                }
               },
               "weight": 1
             },
             {
               "data": {
-                "Name": "spore_blossom"
+                "Name": "glow_lichen",
+                "Properties": {
+                  "up": "true"
+                }
               },
-              "weight": 1
+              "weight": 2
             }
           ]
         },
@@ -36,9 +51,9 @@
     },
     "foliage_placer": {
       "type": "minecraft:jungle_foliage_placer",
-      "height": 2,
-      "offset": 2,
-      "radius": 3
+      "radius": 1,
+      "height": 1,
+      "offset": 1
     },
     "foliage_provider": {
       "type": "minecraft:weighted_state_provider",
@@ -75,7 +90,7 @@
         "max_inclusive": 6,
         "min_inclusive": 3
       },
-      "place_branch_per_log_probability": 0.3
+      "place_branch_per_log_probability": 0.35
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
