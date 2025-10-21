@@ -1,5 +1,7 @@
 # Ethereal Grove
 
+## (!!! If you are downloading this as a zip datapack, there is also an required resource pack you should download as well !!! Mod versions should have it embedded.)
+
 We all have heard about The Twilight Forest, but it's an mod from the legacy days, isn't updated in as much as we want to, just feels like an ancient relic in general.
 
 Minecraft datapacks have progressed quite a bunch, with useful utilities, and it's about time we brought some of that nostalgia over.
