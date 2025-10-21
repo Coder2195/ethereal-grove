@@ -136,10 +136,10 @@
         "weight": 95
       },
       {
-        "type": "minecraft:zombie_villager",
+        "type": "minecraft:ghast",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 5
+        "weight": 100
       },
       {
         "type": "minecraft:skeleton",

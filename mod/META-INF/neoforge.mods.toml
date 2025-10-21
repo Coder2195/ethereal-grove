@@ -1,0 +1,32 @@
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "GNU GPLv3"
+showAsResourcePack = false
+issueTrackerURL = "https://github.com/Coder2195/ethereal-grove/issues"
+
+[[mods]]
+modId = "ethereal_grove"
+version = "0.1.0"
+displayName = "Ethereal Grove"
+displayURL = "https://modrinth.com/datapack/ethereal-grove"
+description = '''
+	A fan-made future perception of The Twilight Forest, built entirely as a datapack.
+	'''
+logoFile = "pack.png"
+logoBlur = false
+updateJSONURL = "https://api.modrinth.com/updates/eyopXT2T/forge_updates.json"
+credits = "Coder2195 (Lead Developer)"
+authors = "Coder2195"
+
+[[dependencies.ethereal_grove]]
+modId = "neoforge"
+mandatory = false
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.ethereal_grove]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.21.9,1.21.10]"
+ordering = "NONE"
+side = "BOTH"

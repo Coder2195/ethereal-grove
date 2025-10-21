@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "dev.coder2195",
+    "id": "ethereal_grove",
+    "version": "0.1.0",
+    "metadata": {
+      "name": "Ethereal Grove",
+      "description": "A fan-made future perception of The Twilight Forest, built entirely as a datapack.",
+      "contributors": {
+        "Coder2195": "Lead Developer"
+      },
+      "contact": {
+        "homepage": "https://modrinth.com/datapack/ethereal-grove",
+        "sources": "https://github.com/Coder2195/ethereal-grove",
+        "issues": "https://github.com/Coder2195/ethereal-grove/issues"
+      },
+      "icon": "pack.png"
+    },
+    "breaks": [],
+    "depends": [
+      {
+        "id": "quilt_resource_loader",
+        "versions": "*",
+        "unless": "fabric-resource-loader-v0"
+      }
+    ],
+    "intermediate_mappings": "net.fabricmc:intermediary"
+  }
+}

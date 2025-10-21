@@ -18,6 +18,6 @@
   },
   "requirements": [["enter", "exit"]],
   "rewards": {
-    "function": "ethereal_grove:mechanics/portal/post_teleport"
+    "function": "ethereal_grove:mechanic/portal/post_teleport"
   }
 }
