@@ -1,1 +1,2 @@
 scoreboard objectives add ethereal_grove.portal_cooldown dummy
+scoreboard objectives add ethereal_grove.live_time dummy

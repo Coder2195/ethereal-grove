@@ -67,7 +67,7 @@
       "minecraft:disk_gravel"
     ],
     [],
-    ["minecraft:spring_water", "minecraft:spring_lava"],
+    [],
     ["minecraft:patch_tall_grass_2", "ethereal_grove:ethereal_grove/trees"],
     ["minecraft:freeze_top_layer"]
   ],
