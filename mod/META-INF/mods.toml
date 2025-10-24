@@ -7,7 +7,7 @@ issueTrackerURL = "https://github.com/Coder2195/ethereal-grove/issues"
 [[mods]]
 modId = "ethereal_grove"
 version = "0.1.0"
-displayName = "Stellarity"
+displayName = "Ethereal Grove"
 displayURL = "https://modrinth.com/datapack/ethereal-grove"
 description = '''
 	A fan-made future perception of The Twilight Forest, built entirely as a datapack.
