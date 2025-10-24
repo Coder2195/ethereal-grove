@@ -1,3 +1,7 @@
+
+# copy from dialog/config.json and replace "initial" with $(insert key) and replace $ in actions with \u0024 if you are doing it manually
+# otherwise use generate.py to do it automatically 
+
 $dialog show @s {        \
 "type": "minecraft:multi_action",        \
 "title": {        \
@@ -7,38 +11,82 @@ $dialog show @s {        \
 "bold": true,        \
 "underlined": true        \
 },        \
-"body": [],        \
+"pause": true,        \
+"body": [        \
+{        \
+"type": "plain_message",        \
+"contents": {        \
+"translate": "ethereal_grove.config.options_overview",        \
+"underlined": true,        \
+"color": "#41d8a1"        \
+}        \
+},        \
+{        \
+"type": "plain_message",        \
+"contents": {        \
+"translate": "ethereal_grove.config.options_overview.description",        \
+"color": "#888888"        \
+}        \
+},        \
+{        \
+"type": "plain_message",        \
+"contents": {        \
+"text": "\u2192 ",        \
+"extra": [        \
+{        \
+"translate": "ethereal_grove.config.greet_on_init"        \
+}        \
+],        \
+"hover_event": {        \
+"action": "show_text",        \
+"value": {        \
+"translate": "ethereal_grove.config.greet_on_init.description"        \
+}        \
+}        \
+}        \
+},        \
+{        \
+"type": "plain_message",        \
+"contents": {        \
+"translate": "ethereal_grove.config.options_input",        \
+"underlined": true,        \
+"bold": true,        \
+"color": "#41d8a1"        \
+}        \
+}        \
+],        \
 "inputs": [        \
 {        \
 "key": "greet_on_init",        \
 "type": "minecraft:boolean",        \
 "label": {        \
 "translate": "ethereal_grove.config.greet_on_init",        \
-"extra": [        \
-{        \
-"text": " - ",        \
-"color": "gray"        \
-},        \
-{        \
-"translate": "ethereal_grove.config.greet_on_init.description",        \
-"color": "gray",        \
-"italic": true        \
+"hover_event": {        \
+"action": "show_text",        \
+"value": {        \
+"translate": "ethereal_grove.config.greet_on_init.description"        \
 }        \
-]        \
+}        \
 },        \
 "initial": $(greet_on_init),        \
 "on_true": "true",        \
 "on_false": "false"        \
 }        \
 ],        \
-\
 "actions": [        \
 {        \
-"label": "Save ",        \
+"label": {        \
+"translate": "ethereal_grove.config.save"        \
+},        \
 "action": {        \
 "type": "dynamic/run_command",        \
 "template": "data merge storage ethereal_grove:config {'greet_on_init':\u0024(greet_on_init)}"        \
 }        \
+},        \
+{        \
+"label": {        \
+"translate": "ethereal_grove.config.exit"        \
+}        \
 }        \
 ]        \
-}        
+}

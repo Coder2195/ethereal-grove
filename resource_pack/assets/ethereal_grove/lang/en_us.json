@@ -8,5 +8,10 @@
   "advancements.ethereal_grove.root.description": "What ethereal secrets lay here?",
   "ethereal_grove.config": "Ethereal Grove Configuration",
   "ethereal_grove.config.greet_on_init": "Greet on Startup",
-  "ethereal_grove.config.greet_on_init.description": "Should there be a greeting in the chat when the datapack is (re)loaded?"
+  "ethereal_grove.config.greet_on_init.description": "Should there be a greeting in the chat when the datapack is (re)loaded?",
+  "ethereal_grove.config.exit": "Exit",
+  "ethereal_grove.config.save": "Save",
+  "ethereal_grove.config.options_overview": "Hover over the options to see their descriptions.",
+  "ethereal_grove.config.options_overview.description": "Since datapack dialog inputs aren't accessible, descriptions are hoverable here instead.",
+  "ethereal_grove.config.options_input": "Configure Options Below"
 }
