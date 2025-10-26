@@ -13,5 +13,7 @@
   "ethereal_grove.config.save": "Save",
   "ethereal_grove.config.options_overview": "Hover over the options to see their descriptions.",
   "ethereal_grove.config.options_overview.description": "Since datapack dialog inputs aren't accessible, descriptions are hoverable here instead.",
-  "ethereal_grove.config.options_input": "Configure Options Below"
+  "ethereal_grove.config.options_input": "Configure Options Below",
+  "entity.ethereal_grove.ourghast": "Ourghast",
+  "commands.ethereal_grove.bossbar.delete_all.success": "All boss bars have been deleted. Verify through the /bossbar remove command for stray bossbars the datapack could not detect."
 }
