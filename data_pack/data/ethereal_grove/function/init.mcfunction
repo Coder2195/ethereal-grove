@@ -3,7 +3,12 @@ function ethereal_grove:init/config
 
 execute if data storage ethereal_grove:config {"greet_on_init": true} as @a at @s run function ethereal_grove:init/greet
 
+# temp will be cleared after each reload (use persistent for persistent data)
+  data modify storage ethereal_grove:temp {} set value {}
+
 # good way to clear out the bossbars because they will come back anyways
   function ethereal_grove:bossbar/delete_all
+
+execute in ethereal_grove:ethereal_grove run forceload add ~ ~ 0 0
 
 schedule function ethereal_grove:main_1s 20t append
