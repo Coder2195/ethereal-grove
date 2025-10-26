@@ -1,7 +1,7 @@
 {
   "type": "minecraft:multi_action",
   "title": {
-    "translate": "ethereal_grove.config",
+    "translate": "menu.ethereal_grove.config",
     "fallback": "(Missing Required Resource Pack)",
     "color": "#2abb85",
     "bold": true,
@@ -12,7 +12,7 @@
     {
       "type": "plain_message",
       "contents": {
-        "translate": "ethereal_grove.config.options_overview",
+        "translate": "menu.ethereal_grove.config.options_overview",
         "underlined": true,
         "color": "#41d8a1"
       }
@@ -20,7 +20,7 @@
     {
       "type": "plain_message",
       "contents": {
-        "translate": "ethereal_grove.config.options_overview.description",
+        "translate": "menu.ethereal_grove.config.options_overview.description",
         "color": "#888888"
       }
     },
@@ -28,11 +28,11 @@
       "type": "plain_message",
       "contents": {
         "text": "→ ",
-        "extra": [{ "translate": "ethereal_grove.config.greet_on_init" }],
+        "extra": [{ "translate": "menu.ethereal_grove.config.greet_on_init" }],
         "hover_event": {
           "action": "show_text",
           "value": {
-            "translate": "ethereal_grove.config.greet_on_init.description"
+            "translate": "menu.ethereal_grove.config.greet_on_init.description"
           }
         }
       }
@@ -40,7 +40,7 @@
     {
       "type": "plain_message",
       "contents": {
-        "translate": "ethereal_grove.config.options_input",
+        "translate": "menu.ethereal_grove.config.options_input",
         "underlined": true,
         "bold": true,
         "color": "#41d8a1"
@@ -53,11 +53,11 @@
       "key": "greet_on_init",
       "type": "minecraft:boolean",
       "label": {
-        "translate": "ethereal_grove.config.greet_on_init",
+        "translate": "menu.ethereal_grove.config.greet_on_init",
         "hover_event": {
           "action": "show_text",
           "value": {
-            "translate": "ethereal_grove.config.greet_on_init.description"
+            "translate": "menu.ethereal_grove.config.greet_on_init.description"
           }
         }
       },
@@ -70,7 +70,7 @@
   "actions": [
     {
       "label": {
-        "translate": "ethereal_grove.config.save"
+        "translate": "menu.ethereal_grove.config.save"
       },
       "action": {
         "type": "dynamic/run_command",
@@ -79,7 +79,7 @@
     },
     {
       "label": {
-        "translate": "ethereal_grove.config.exit"
+        "translate": "menu.ethereal_grove.config.exit"
       }
     }
   ]

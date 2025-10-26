@@ -1,0 +1,46 @@
+{
+  "type": "multi_action",
+  "title": {
+    "translate": "menu.ethereal_grove.summon",
+    "fallback": "(Missing Required Resource Pack)",
+    "color": "#2abb85",
+    "bold": true,
+    "underlined": true
+  },
+  "body": {
+    "type": "plain_message",
+    "contents": {
+      "translate": "menu.ethereal_grove.summon.description"
+    }
+  },
+  "inputs": [
+    {
+      "key": "location",
+      "type": "text",
+      "initial": "~ ~ ~",
+      "label": {
+        "translate": "menu.ethereal_grove.summon.location"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "translate": "entity.ethereal_grove.ourghast"
+      },
+      "action": {
+        "type": "minecraft:dynamic/run_command",
+        "template": "execute positioned $(location) run function ethereal_grove:entity/ourghast/summon"
+      }
+    },
+    {
+      "label": {
+        "translate": "entity.ethereal_grove.ember_wraith"
+      },
+      "action": {
+        "type": "minecraft:dynamic/run_command",
+        "template": "execute positioned $(location) run function ethereal_grove:entity/ember_wraith/summon"
+      }
+    }
+  ]
+}

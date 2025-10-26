@@ -5,7 +5,7 @@
 $dialog show @s {        \
 "type": "minecraft:multi_action",        \
 "title": {        \
-"translate": "ethereal_grove.config",        \
+"translate": "menu.ethereal_grove.config",        \
 "fallback": "(Missing Required Resource Pack)",        \
 "color": "#2abb85",        \
 "bold": true,        \
@@ -16,7 +16,7 @@ $dialog show @s {        \
 {        \
 "type": "plain_message",        \
 "contents": {        \
-"translate": "ethereal_grove.config.options_overview",        \
+"translate": "menu.ethereal_grove.config.options_overview",        \
 "underlined": true,        \
 "color": "#41d8a1"        \
 }        \
@@ -24,7 +24,7 @@ $dialog show @s {        \
 {        \
 "type": "plain_message",        \
 "contents": {        \
-"translate": "ethereal_grove.config.options_overview.description",        \
+"translate": "menu.ethereal_grove.config.options_overview.description",        \
 "color": "#888888"        \
 }        \
 },        \
@@ -34,13 +34,13 @@ $dialog show @s {        \
 "text": "\u2192 ",        \
 "extra": [        \
 {        \
-"translate": "ethereal_grove.config.greet_on_init"        \
+"translate": "menu.ethereal_grove.config.greet_on_init"        \
 }        \
 ],        \
 "hover_event": {        \
 "action": "show_text",        \
 "value": {        \
-"translate": "ethereal_grove.config.greet_on_init.description"        \
+"translate": "menu.ethereal_grove.config.greet_on_init.description"        \
 }        \
 }        \
 }        \
@@ -48,7 +48,7 @@ $dialog show @s {        \
 {        \
 "type": "plain_message",        \
 "contents": {        \
-"translate": "ethereal_grove.config.options_input",        \
+"translate": "menu.ethereal_grove.config.options_input",        \
 "underlined": true,        \
 "bold": true,        \
 "color": "#41d8a1"        \
@@ -60,11 +60,11 @@ $dialog show @s {        \
 "key": "greet_on_init",        \
 "type": "minecraft:boolean",        \
 "label": {        \
-"translate": "ethereal_grove.config.greet_on_init",        \
+"translate": "menu.ethereal_grove.config.greet_on_init",        \
 "hover_event": {        \
 "action": "show_text",        \
 "value": {        \
-"translate": "ethereal_grove.config.greet_on_init.description"        \
+"translate": "menu.ethereal_grove.config.greet_on_init.description"        \
 }        \
 }        \
 },        \
@@ -76,7 +76,7 @@ $dialog show @s {        \
 "actions": [        \
 {        \
 "label": {        \
-"translate": "ethereal_grove.config.save"        \
+"translate": "menu.ethereal_grove.config.save"        \
 },        \
 "action": {        \
 "type": "dynamic/run_command",        \
@@ -85,7 +85,7 @@ $dialog show @s {        \
 },        \
 {        \
 "label": {        \
-"translate": "ethereal_grove.config.exit"        \
+"translate": "menu.ethereal_grove.config.exit"        \
 }        \
 }        \
 ]        \
