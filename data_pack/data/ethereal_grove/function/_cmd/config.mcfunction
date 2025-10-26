@@ -1,2 +1,2 @@
 
-function ethereal_grove:config/dialog with storage ethereal_grove:config
+function ethereal_grove:dialog/config with storage ethereal_grove:config
