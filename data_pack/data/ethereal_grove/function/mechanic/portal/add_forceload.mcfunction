@@ -1,2 +1,2 @@
-execute in ethereal_grove:ethereal_grove positioned ~ ~ ~ run forceload add ~ ~
-execute in minecraft:overworld positioned ~ ~ ~ run forceload add ~ ~
+execute positioned ~ ~ ~ in minecraft:overworld run forceload add ~ ~
+execute positioned ~ ~ ~ in ethereal_grove:ethereal_grove run forceload add ~ ~
