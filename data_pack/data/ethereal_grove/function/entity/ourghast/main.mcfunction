@@ -4,4 +4,4 @@ particle block_marker{block_state:"lava"} ~ ~-1 ~ 5 -2 5 0.1 3 force @a[distance
 
 rotate @s facing entity @p[distance=..80,gamemode=!spectator] eyes
 
-function ethereal_grove:bossbar/update
+execute if data entity @s data."ethereal_grove:bossbar" run function ethereal_grove:bossbar/update
