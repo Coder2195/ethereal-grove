@@ -9,6 +9,5 @@
     "load": ["resource_pack"]
   },
   "pipeline": ["beet_script.config_dialog"],
-
   "output": "build"
 }

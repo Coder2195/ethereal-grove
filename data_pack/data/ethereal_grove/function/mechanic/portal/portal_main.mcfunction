@@ -4,5 +4,5 @@ execute unless predicate ethereal_grove:location/portal_layout run function ethe
 
 execute store success score @s ethereal_grove.success run forceload query ~ ~ 
 
-execute if score @s ethereal_grove.success matches 0 positioned ~-7 ~ ~-7 if entity @p[dx=16,y=-64,dy=382,dz=16] positioned ~7 ~ ~7 run function ethereal_grove:mechanic/portal/add_forceload
-execute if score @s ethereal_grove.success matches 1.. positioned ~-7 -64 ~-7 in minecraft:overworld unless entity @p[dx=16,y=-64,dy=382,dz=16] in ethereal_grove:ethereal_grove unless entity @p[dx=16,dy=382,dz=16] positioned ~7 ~ ~7 run function ethereal_grove:mechanic/portal/remove_forceload
+execute if score @s ethereal_grove.success matches 0 positioned ~-7 ~ ~-7 if entity @p[dx=16,y=-64,dy=390,dz=16] positioned ~7 ~ ~7 run function ethereal_grove:mechanic/portal/add_forceload
+execute if score @s ethereal_grove.success matches 1.. positioned ~-7 -64 ~-7 in minecraft:overworld unless entity @p[dx=16,y=-64,dy=390,dz=16] in ethereal_grove:ethereal_grove unless entity @p[dx=16,dy=382,dz=16] positioned ~7 ~ ~7 run function ethereal_grove:mechanic/portal/remove_forceload

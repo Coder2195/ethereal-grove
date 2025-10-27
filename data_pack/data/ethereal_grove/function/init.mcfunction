@@ -9,6 +9,4 @@ execute if data storage ethereal_grove:config {"greet_on_init": true} as @a at @
 # good way to clear out the bossbars because they will come back anyways
   function ethereal_grove:bossbar/delete_all
 
-execute in ethereal_grove:ethereal_grove run forceload add ~ ~ 0 0
-
 schedule function ethereal_grove:main_1s 20t append

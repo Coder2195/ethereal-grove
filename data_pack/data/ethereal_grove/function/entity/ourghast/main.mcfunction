@@ -1,4 +1,4 @@
-execute positioned ~-5 ~ ~-5 as @e[type=fireball,dx=10,dy=10,dz=10,tag=!ethereal_grove.ourghast.fireball] run kill @s
+execute positioned ~-5 ~ ~-5 as @e[dx=10,dy=10,dz=10,type=fireball,tag=!ethereal_grove.ourghast.fireball] run kill @s
 
 particle flame ~ ~-1 ~ 5 -2 5 0.1 3 force @a[distance=..100]
 

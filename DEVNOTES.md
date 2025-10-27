@@ -1,0 +1,1 @@
+https://www.reddit.com/r/MinecraftCommands/wiki/optimising/#wiki_optimize_selectors
