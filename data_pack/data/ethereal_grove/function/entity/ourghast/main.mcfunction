@@ -9,3 +9,7 @@ execute if data entity @s data."ethereal_grove:bossbar" run function ethereal_gr
 execute unless score @s ethereal_grove.attack_cooldown matches 1.. if entity @e[type=player,distance=..80,gamemode=!spectator,gamemode=!creative] run function ethereal_grove:entity/ourghast/attack/decide
 
 execute if score @s ethereal_grove.attack_cooldown matches 1.. run scoreboard players remove @s ethereal_grove.attack_cooldown 1
+
+execute positioned ~-6 ~-2 ~-6 as @e[dx=12,dy=12,dz=12,type=fireball,tag=ethereal_grove.ourghast.fireball] run function ethereal_grove:entity/ourghast/attack/fireball_flurry/prevent_damage
+
+execute positioned ~-6 ~-2 ~-6 as @e[dx=12,dy=12,dz=12,type=player] run say Prevented damage from ourghast fireball

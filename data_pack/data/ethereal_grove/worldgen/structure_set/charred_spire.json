@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "ethereal_grove:charred_spire",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 693898952,
+    "frequency_reduction_method": "default",
+    "frequency": 0.37,
+    "spread_type": "linear",
+    "spacing": 31,
+    "separation": 17
+  }
+}

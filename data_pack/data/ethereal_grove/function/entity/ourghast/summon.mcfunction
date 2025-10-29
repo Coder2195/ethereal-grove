@@ -3,7 +3,7 @@ head: { id:"netherite_helmet",components:{enchantments:{blast_protection:255}, u
 chest: {id:"netherite_chestplate",components:{enchantments:{blast_protection:255}, unbreakable:{}}}, \
 legs: {id:"netherite_leggings",components:{enchantments:{blast_protection:255}, unbreakable:{}}}, \
 feet: {id:"netherite_boots",components:{enchantments:{blast_protection:255}, unbreakable:{}}} \
-}}
+}, active_effects:[{id:"regeneration",duration:-1,show_particles:false}], }
 
 data modify storage ethereal_grove:temp ourghast set from entity @n[type=ghast,tag=ethereal_grove.ourghast,distance=..4]
 

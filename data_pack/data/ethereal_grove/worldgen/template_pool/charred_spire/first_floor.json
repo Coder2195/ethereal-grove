@@ -1,0 +1,15 @@
+{
+  "name": "ethereal_grove:charred_spire/first_floor",
+  "fallback": "empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "location": "ethereal_grove:charred_spire/first_floor",
+        "processors": "empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}
