@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "dirt",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_name": "Developer Dirt",
+                "enchantments": {
+                  "knockback": 67
+                }
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

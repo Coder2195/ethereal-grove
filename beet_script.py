@@ -4,7 +4,7 @@ from beet import Context, Function
 
 def config_dialog(ctx: Context):
   top = """
-# copy from dialog/config.json and replace "initial" with $(insert key) and replace $ in actions with \\u0024 if you are doing it manually
+# copy from config/dialog.json and replace "initial" with $(insert key) and replace $ in actions with \\u0024 if you are doing it manually
 # otherwise use generate.py to do it automatically 
 
 $dialog show @s """
@@ -39,5 +39,5 @@ $dialog show @s """
   
 
   content = top + "\n".join(lines)
-  ctx.data.functions["ethereal_grove:dialog/config"].set_content(content)
+  ctx.data.functions["ethereal_grove:config/dialog"].set_content(content)
 

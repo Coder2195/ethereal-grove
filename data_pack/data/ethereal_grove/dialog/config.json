@@ -40,6 +40,19 @@
     {
       "type": "plain_message",
       "contents": {
+        "text": "→ ",
+        "extra": [{ "translate": "menu.ethereal_grove.config.enable_blocks" }],
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "translate": "menu.ethereal_grove.config.enable_blocks.description"
+          }
+        }
+      }
+    },
+    {
+      "type": "plain_message",
+      "contents": {
         "translate": "menu.ethereal_grove.config.options_input",
         "underlined": true,
         "bold": true,
@@ -61,9 +74,21 @@
           }
         }
       },
-      "initial": true,
-      "on_true": "true",
-      "on_false": "false"
+      "initial": true
+    },
+    {
+      "key": "enable_blocks",
+      "type": "minecraft:boolean",
+      "label": {
+        "translate": "menu.ethereal_grove.config.enable_blocks",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "translate": "menu.ethereal_grove.config.enable_blocks.description"
+          }
+        }
+      },
+      "initial": true
     }
   ],
 
@@ -74,12 +99,21 @@
       },
       "action": {
         "type": "dynamic/run_command",
-        "template": "data merge storage ethereal_grove:config {'greet_on_init':$(greet_on_init)}"
+        "template": "data merge storage ethereal_grove:config {'greet_on_init':$(greet_on_init),'enable_blocks':$(enable_blocks)}"
       }
     },
     {
       "label": {
         "translate": "menu.ethereal_grove.config.exit"
+      }
+    },
+    {
+      "label": {
+        "translate": "menu.ethereal_grove.config.reset"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "function ethereal_grove:config/reset"
       }
     }
   ]
