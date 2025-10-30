@@ -1,0 +1,3 @@
+kill @s
+
+summon ghast

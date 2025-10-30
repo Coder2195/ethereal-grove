@@ -1,0 +1,1 @@
+$summon snowball ~ ~ ~ {Tags:["ethereal_grove.ourghast.teardrop","smithed.entity"],Item:{id:"ghast_tear"},Passengers:[{id:"marker",Tags:["ethereal_grove.ourghast.teardrop_exploder","smithed.entity","smithed.strict"],data:{"ethereal_grove:owner":{"UUID":$(UUID)}}}]}

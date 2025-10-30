@@ -1,0 +1,6 @@
+{
+  "condition": "location_check",
+  "predicate": {
+    "structures": ["ethereal_grove:charred_spire"]
+  }
+}
