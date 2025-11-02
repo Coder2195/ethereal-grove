@@ -3,3 +3,4 @@ execute unless data entity @s data."ethereal_grove:anchor_point" if predicate et
 tag @s add ethereal_grove.init
 
 # say init
+  team add ethereal_grove.name_hidden

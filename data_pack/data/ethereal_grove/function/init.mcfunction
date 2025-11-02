@@ -1,5 +1,7 @@
 function ethereal_grove:init/scoreboard
+function ethereal_grove:init/team
 function ethereal_grove:config/init
+function ethereal_grove:init/storage
 
 execute if data storage ethereal_grove:config {"greet_on_init": true} as @a at @s run function ethereal_grove:init/greet
 
