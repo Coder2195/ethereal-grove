@@ -1,7 +1,7 @@
 {
   "model": {
     "type": "model",
-    "model": "ethereal_grove:item/_ourghast_tentacle",
+    "model": "ethereal_grove:entity/ourghast_tentacle",
     "tints": [
       {
         "type": "dye",

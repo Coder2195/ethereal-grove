@@ -13,3 +13,7 @@ kill @e[type=snowball,tag=!smithed.strict,distance=..4]
 fill ~2 ~2 ~2 ~-2 ~-2 ~-2 air replace water
 
 function ethereal_grove:entity/ember_wraith/attack/ember_aura
+
+
+# init (copy and paste to other entities as needed)
+  execute unless entity @s[tag=ethereal_grove.init] run function ethereal_grove:entity/ourghast/init

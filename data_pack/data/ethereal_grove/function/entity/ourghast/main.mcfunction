@@ -16,6 +16,7 @@ execute positioned ~-6 ~-2 ~-6 as @e[dx=12,dy=12,dz=12,type=fireball,tag=etherea
 execute if data entity @s data."ethereal_grove:anchor_point" run function ethereal_grove:entity/ourghast/movement/check_anchor with entity @s data."ethereal_grove:anchor_point"
 
 
-execute unless entity @s[tag=ethereal_grove.init] run function ethereal_grove:entity/ourghast/init
+# init (copy and paste to other entities as needed)
+  execute unless entity @s[tag=ethereal_grove.init] run function ethereal_grove:entity/ourghast/init
 
 

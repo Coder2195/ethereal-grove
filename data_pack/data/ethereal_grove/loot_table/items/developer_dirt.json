@@ -10,7 +10,9 @@
             {
               "function": "set_components",
               "components": {
-                "item_name": "Developer Dirt",
+                "item_name": {
+                  "translate": "item.ethereal_grove.developer_dirt"
+                },
                 "enchantments": {
                   "knockback": 67
                 }

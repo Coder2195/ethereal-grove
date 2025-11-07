@@ -1,0 +1,110 @@
+{
+  "type": "multi_action",
+  "title": {
+    "translate": "menu.ethereal_grove.give",
+    "fallback": "(Missing Required Resource Pack)",
+    "color": "#2abb85",
+    "bold": true,
+    "underlined": true
+  },
+  "body": {
+    "type": "plain_message",
+    "contents": {
+      "translate": "menu.ethereal_grove.give.description"
+    }
+  },
+  "inputs": [
+    {
+      "key": "item",
+      "type": "minecraft:single_option",
+      "label": {
+        "translate": "menu.ethereal_grove.give.item"
+      },
+      "options": [
+        {
+          "id": "developer_dirt",
+          "display": {
+            "translate": "item.ethereal_grove.developer_dirt",
+            "extra": [
+              " ",
+              {
+                "sprite": "block/dirt"
+              }
+            ]
+          }
+        },
+        {
+          "id": "developer_dirt",
+          "display": {
+            "translate": "item.ethereal_grove.developer_dirt",
+            "extra": [
+              " ",
+              {
+                "sprite": "block/acacia_log"
+              }
+            ]
+          }
+        },
+        {
+          "id": "developer_dirt",
+          "display": {
+            "translate": "item.ethereal_grove.developer_dirt",
+            "extra": [
+              " ",
+              {
+                "sprite": "block/dirt_path_side"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "item_raw",
+      "type": "minecraft:text",
+      "label": {
+        "translate": "menu.ethereal_grove.give.item_id"
+      }
+    },
+    {
+      "key": "count",
+      "type": "minecraft:number_range",
+      "start": 1,
+      "end": 64,
+      "step": 1,
+      "initial": 1,
+      "label": {
+        "translate": "menu.ethereal_grove.give.count"
+      },
+      "width": 400
+    },
+    {
+      "key": "selector",
+      "type": "minecraft:text",
+      "initial": "@s",
+      "label": {
+        "translate": "menu.ethereal_grove.give.selector"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "translate": "menu.ethereal_grove.give.give_single_option"
+      },
+      "action": {
+        "type": "minecraft:dynamic/run_command",
+        "template": "loot give $(selector) loot {pools:[{rolls:$(count),entries:[{type:\"loot_table\",value:\"ethereal_grove:items/$(item)\"}]}]}"
+      }
+    },
+    {
+      "label": {
+        "translate": "menu.ethereal_grove.give.give_id"
+      },
+      "action": {
+        "type": "minecraft:dynamic/run_command",
+        "template": "loot give $(selector) loot {pools:[{rolls:$(count),entries:[{type:\"loot_table\",value:\"ethereal_grove:items/$(item_raw)\"}]}]}"
+      }
+    }
+  ]
+}
