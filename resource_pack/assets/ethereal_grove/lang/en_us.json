@@ -30,6 +30,7 @@
   "menu.ethereal_grove.summon.location": "Summon Location (i.e. ~ ~ ~ or 100 64 100)",
   "entity.ethereal_grove.ourghast": "Ourghast",
   "entity.ethereal_grove.ember_wraith": "Ember Wraith",
+  "entity.ethereal_grove.boxed_ghastling": "Boxed Ghastling",
   "commands.ethereal_grove.bossbar.delete_all.success": "All boss bars have been deleted. Verify through the /bossbar remove command for stray bossbars the datapack could not detect.",
   "item.ethereal_grove.developer_dirt": "Developer Dirt"
 }

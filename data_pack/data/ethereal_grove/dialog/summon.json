@@ -41,6 +41,15 @@
         "type": "minecraft:dynamic/run_command",
         "template": "execute positioned $(location) run function ethereal_grove:entity/ember_wraith/summon"
       }
+    },
+    {
+      "label": {
+        "translate": "entity.ethereal_grove.boxed_ghastling"
+      },
+      "action": {
+        "type": "minecraft:dynamic/run_command",
+        "template": "execute positioned $(location) run function ethereal_grove:entity/boxed_ghastling/summon"
+      }
     }
   ]
 }

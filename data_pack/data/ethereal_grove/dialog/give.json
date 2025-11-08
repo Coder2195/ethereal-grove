@@ -70,7 +70,7 @@
       "key": "count",
       "type": "minecraft:number_range",
       "start": 1,
-      "end": 64,
+      "end": 1000,
       "step": 1,
       "initial": 1,
       "label": {
