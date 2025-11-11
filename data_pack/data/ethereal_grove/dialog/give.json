@@ -32,30 +32,6 @@
               }
             ]
           }
-        },
-        {
-          "id": "developer_dirt",
-          "display": {
-            "translate": "item.ethereal_grove.developer_dirt",
-            "extra": [
-              " ",
-              {
-                "sprite": "block/acacia_log"
-              }
-            ]
-          }
-        },
-        {
-          "id": "developer_dirt",
-          "display": {
-            "translate": "item.ethereal_grove.developer_dirt",
-            "extra": [
-              " ",
-              {
-                "sprite": "block/dirt_path_side"
-              }
-            ]
-          }
         }
       ]
     },
