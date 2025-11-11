@@ -482,6 +482,22 @@
                           "type": "minecraft:sequence",
                           "sequence": [
                             {
+                              "type": "condition",
+                              "if_true": {
+                                "type": "noise_threshold",
+                                "noise": "ethereal_grove:major_trails",
+                                "max_threshold": 2.0,
+                                "min_threshold": -2.0
+                              },
+                              "then_run": {
+                                "type": "block",
+                                "result_state": {
+                                  "Name": "minecraft:amethyst_block"
+                                }
+                              }
+                            },
+
+                            {
                               "type": "minecraft:condition",
                               "if_true": {
                                 "type": "minecraft:water",
@@ -490,13 +506,33 @@
                                 "surface_depth_multiplier": 0
                               },
                               "then_run": {
-                                "type": "minecraft:block",
-                                "result_state": {
-                                  "Name": "minecraft:grass_block",
-                                  "Properties": {
-                                    "snowy": "false"
+                                "type": "sequence",
+                                "sequence": [
+                                  {
+                                    "type": "condition",
+                                    "if_true": {
+                                      "type": "minecraft:noise_threshold",
+                                      "noise": "ethereal_grove:trails",
+                                      "max_threshold": 2.0,
+                                      "min_threshold": -2.0
+                                    },
+                                    "then_run": {
+                                      "type": "block",
+                                      "result_state": {
+                                        "Name": "amethyst_block"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "minecraft:block",
+                                    "result_state": {
+                                      "Name": "minecraft:grass_block",
+                                      "Properties": {
+                                        "snowy": "false"
+                                      }
+                                    }
                                   }
-                                }
+                                ]
                               }
                             },
                             {

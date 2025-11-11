@@ -7,23 +7,7 @@
       "type": "minecraft:quarter_negative",
       "argument": {
         "type": "minecraft:mul",
-        "argument1": {
-          "type": "minecraft:add",
-          "argument1": "ethereal_grove:ethereal_grove/depth",
-          "argument2": {
-            "type": "minecraft:mul",
-            "argument1": "ethereal_grove:ethereal_grove/jaggedness",
-            "argument2": {
-              "type": "minecraft:half_negative",
-              "argument": {
-                "type": "minecraft:noise",
-                "noise": "minecraft:jagged",
-                "xz_scale": 1500.0,
-                "y_scale": 0.0
-              }
-            }
-          }
-        },
+        "argument1": "ethereal_grove:ethereal_grove/depth",
         "argument2": "ethereal_grove:ethereal_grove/factor"
       }
     }
