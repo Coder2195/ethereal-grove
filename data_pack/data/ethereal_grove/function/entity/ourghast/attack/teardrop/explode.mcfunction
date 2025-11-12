@@ -1,4 +1,4 @@
-$summon tnt ~ ~ ~ {fuse:0,owner:$(UUID),explosion_power:2}
+$summon tnt ~ ~ ~ {fuse:0,owner:$(owner),explosion_power:2}
 
 kill @s
 # say explode
