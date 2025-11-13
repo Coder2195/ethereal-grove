@@ -4,7 +4,8 @@
     "max_format": 69,
     "min_format": 69,
     "description": {
-      "translate": "ethereal_grove.resource_pack"
+      "translate": "ethereal_grove.resource_pack",
+      "fallback": "Required resource pack for Ethereal Grove"
     }
   }
 }
