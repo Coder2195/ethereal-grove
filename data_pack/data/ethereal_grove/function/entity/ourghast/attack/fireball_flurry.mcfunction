@@ -1,4 +1,4 @@
-execute in ethereal_grove:ethereal_grove positioned ^0 ^2 ^5 facing entity @e[type=player,limit=1,sort=random,distance=..100,gamemode=!creative,gamemode=!spectator] feet positioned 0.0 0 0.0 positioned ^ ^ ^1 run function ethereal_grove:util/entity/find_motion {name:"ourghast_fireball.motion"}
+execute in ethereal_grove:ethereal_grove positioned 0.0 0 0.0 positioned ^ ^ ^1 run function ethereal_grove:util/entity/find_motion {name:"ourghast_fireball.motion"}
 data modify storage ethereal_grove:temp ourghast_fireball.owner set from entity @s UUID
 
 

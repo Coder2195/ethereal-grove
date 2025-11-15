@@ -18,5 +18,3 @@ execute if data entity @s data.ethereal_grove.anchor_point run function ethereal
 
 # init (copy and paste to other entities as needed)
   execute unless entity @s[tag=ethereal_grove.init] run function ethereal_grove:entity/ourghast/init
-
-
