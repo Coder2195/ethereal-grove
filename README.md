@@ -1,6 +1,12 @@
 # Ethereal Grove
 
-## (!!! If you are downloading this as a zip datapack, there is also an required resource pack you should download as well !!! Mod versions should have it embedded.)
+> [!CAUTION]
+> Make sure to download the resource pack! On the version you are downloading from on Modrinth or Curseforge, if you click inside for more files, there will be a resource pack to download it. 
+> 
+> Mod versions DO NOT require this, but if it says Missing Resource Pack, download it from there. 
+
+> [!IMPORTANT]
+> A discord server has been created for this project. Join [our discord](https://discord.gg/vFyGxuUsg9) now!
 
 We all have heard about The Twilight Forest, but it's an mod from the legacy days, isn't updated in as much as we want to, just feels like an ancient relic in general.
 
