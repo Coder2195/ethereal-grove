@@ -6,7 +6,7 @@ rotate @s facing entity @p[distance=..80,gamemode=!spectator,gamemode=!creative]
 
 execute if data entity @s data.ethereal_grove.bossbar run function ethereal_grove:bossbar/update
 
-execute unless score @s ethereal_grove.attack_cooldown matches 1.. if entity @e[type=player,distance=..80,gamemode=!spectator,gamemode=!creative] run function ethereal_grove:entity/ourghast/attack/decide
+execute unless score @s ethereal_grove.attack_cooldown matches 1.. if entity @e[type=player,distance=..80,gamemode=!spectator,gamemode=!creative] rotated ~ 0 run function ethereal_grove:entity/ourghast/attack/decide
 
 execute if score @s ethereal_grove.attack_cooldown matches 1.. run scoreboard players remove @s ethereal_grove.attack_cooldown 1
 
