@@ -2,7 +2,7 @@
 
 > [!CAUTION]
 > 
-> Make sure to download the resource pack!
+> **Make sure to download the resource pack!**
 >
 > **On Modrinth:** Versions > `[version]` > Click Inside > Scroll Down to Files > Download `ethereal-grove-[version]-RP.zip`
 >
