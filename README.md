@@ -1,11 +1,19 @@
 # Ethereal Grove
 
 > [!CAUTION]
-> Make sure to download the resource pack! On the version you are downloading from on Modrinth or Curseforge, if you click inside for more files, there will be a resource pack to download it. 
 > 
-> Mod versions DO NOT require this, but if it says Missing Resource Pack, download it from there. 
+> Make sure to download the resource pack!
+>
+> **On Modrinth:** Versions > `[version]` > Click Inside > Scroll Down to Files > Download `ethereal-grove-[version]-RP.zip`
+>
+> If you are downloading a `[version]+mod` version, the resource pack is provided inside the jar file. If it doesn't work, go to the `[version]` for the resource pack
+>
+> **On Curseforge:** Files > `[version]` > Click Inside > Additional Files > Download `[version]-RP`
+> 
+> [In the datapack bundled as a mod version](https://www.curseforge.com/minecraft/mc-mods/ethereal-grove-mod) those all included for you. However, being able to reorder and merge resourcepacks is a limitation we cannot fix, and by downloading it, you accept this tradeoff.
 
 > [!IMPORTANT]
+> 
 > A discord server has been created for this project. Join [our discord](https://discord.gg/vFyGxuUsg9) now!
 
 We all have heard about The Twilight Forest, but it's an mod from the legacy days, isn't updated in as much as we want to, just feels like an ancient relic in general.
