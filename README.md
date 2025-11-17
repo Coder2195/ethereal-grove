@@ -4,7 +4,7 @@
 > 
 > **Make sure to download the resource pack!**
 >
-> **On Modrinth:** Versions > `[version]` > Click Inside > Scroll Down to Files > Download `ethereal-grove-[version]-RP.zip`
+> **On Modrinth:** Versions > `[version]` > Click Inside > Scroll Down to "Files" > Download `ethereal-grove-[version]-RP.zip`
 >
 > If you are downloading a `[version]+mod` version, the resource pack is provided inside the jar file. If it doesn't work, go to the `[version]` for the resource pack
 >
