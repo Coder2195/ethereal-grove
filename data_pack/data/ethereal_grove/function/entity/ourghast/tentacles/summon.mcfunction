@@ -1,0 +1,2 @@
+
+$summon item_display ~ ~ ~ {Tags:["smithed.entity","smithed.strict","ethereal_grove.ourghast.tentacles"], item:{id:"ghast_tear",components:{item_model:"ethereal_grove:entity/ourghast_tentacles"}},transformation:{translation:[0f,4f,0f],left_rotation:[0f,0f,0f,1f],scale:[9f,9f,9f],right_rotation:[0f,0f,0f,1f]}, data:{ "ethereal_grove":{owner:$(UUID)} }, interpolation_duration:0, teleport_duration:2, view_range:5.0}

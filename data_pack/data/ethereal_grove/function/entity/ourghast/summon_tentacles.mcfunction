@@ -1,6 +1,0 @@
-$function ethereal_grove:entity/ourghast/tentacle/summon {transformation:{translation:[3.5f,1f,-3.5f],left_rotation:[0.314f,0f,0.569f,0.76f],scale:[5.5,5.5,5.5],right_rotation:[0f,0f,0f,1f]},UUID:$(UUID)}
-$function ethereal_grove:entity/ourghast/tentacle/summon {transformation:{translation:[-3.5f,1f,-3.5f],left_rotation:[-0.064f,0.09f,-0.547f,0.830f],scale:[5.5,5.5,5.5],right_rotation:[0f,0f,0f,1f]},UUID:$(UUID)}
-$function ethereal_grove:entity/ourghast/tentacle/summon {transformation:{translation:[3.5f,4f,-3.5f],left_rotation:[-0.072f,-0.030f,0.731f,0.678f],scale:[5.5,5.5,5.5],right_rotation:[0f,0f,0f,1f]},UUID:$(UUID)}
-$function ethereal_grove:entity/ourghast/tentacle/summon {transformation:{translation:[-3.5f,4f,-3.5f],left_rotation:[0.16f,0.187f,-0.79f,0.561f],scale:[5.5,5.5,5.5],right_rotation:[0f,0f,0f,1f]},UUID:$(UUID)}
-$function ethereal_grove:entity/ourghast/tentacle/summon {transformation:{translation:[3.5f,7f,-3.5f],left_rotation:[0.116f,-0.052f,0.929f,0.349f],scale:[5.5,5.5,5.5],right_rotation:[0f,0f,0f,1f]},UUID:$(UUID)}
-$function ethereal_grove:entity/ourghast/tentacle/summon {transformation:{translation:[-3.5f,7f,-3.5f],left_rotation:[0.051f,-0.14f,-0.869f,0.472f],scale:[5.5,5.5,5.5],right_rotation:[0f,0f,0f,1f]},UUID:$(UUID)}

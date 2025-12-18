@@ -2,8 +2,14 @@
   "carvers": [],
   "downfall": 0.4,
   "attributes": {
-    "visual/fog_color": 3211405,
-    "visual/sky_color": 525134,
+    "visual/fog_color": {
+      "argument": 3211405,
+      "modifier": "multiply"
+    },
+    "visual/sky_color": {
+      "argument": 525134,
+      "modifier": "multiply"
+    },
     "visual/water_fog_color": 5934554,
     "audio/ambient_sounds": {
       "mood": {

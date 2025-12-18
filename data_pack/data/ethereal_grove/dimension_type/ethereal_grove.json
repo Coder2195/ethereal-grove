@@ -1,27 +1,56 @@
 {
   "ambient_light": 0.0,
   "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "block_search_extent": 8,
+        "offset": 2.0,
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000
+      }
+    },
+    "minecraft:audio/background_music": {
+      "creative": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "minecraft:music.creative"
+      },
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "minecraft:music.game"
+      }
+    },
+
     "gameplay/bed_rule": {
       "can_set_spawn": "never",
       "explodes": false,
       "can_sleep": "never"
     },
+
     "visual/cloud_height": 192.0,
     "gameplay/can_start_raid": true,
-    "gameplay/respawn_anchor_works": false,
     "gameplay/piglins_zombify": true,
-    "visual/sun_angle": 100,
-    "gameplay/sky_light_level": 0,
-    "visual/moon_angle": -30,
-    "visual/sky_light_factor": 0,
-    "visual/sky_color": 1769507,
-    "visual/sunrise_sunset_color": {
-      "argument": 0,
+    "minecraft:gameplay/nether_portal_spawns_piglin": true,
+    "minecraft:gameplay/respawn_anchor_works": false,
+
+    "visual/moon_phase": {
+      "argument": "full_moon",
       "modifier": "override"
     },
-    "visual/sky_fog_end_distance": 1000
+    "audio/firefly_bush_sounds": true,
+    "gameplay/bees_stay_in_hive": false,
+    "gameplay/sky_light_level": 0.26666668,
+    "visual/cloud_color": -15132378,
+    "minecraft:visual/fog_color": "#0f0f16",
+    "minecraft:visual/sky_color": "#000000",
+    "visual/moon_angle": 30,
+    "visual/sun_angle": -90,
+    "visual/star_angle": 180,
+    "visual/star_brightness": 0.5,
+    "visual/sky_light_color": "#7a7aff",
+    "visual/sunrise_sunset_color": "#11330033"
   },
-  "skybox": "overworld",
   "coordinate_scale": 1.0,
   "has_ceiling": false,
   "has_skylight": true,
@@ -32,9 +61,9 @@
   "monster_spawn_block_light_limit": 0,
   "monster_spawn_light_level": {
     "type": "minecraft:uniform",
-    "max_inclusive": 9,
+    "max_inclusive": 7,
     "min_inclusive": 0
   },
-  "cardinal_light": "default",
+  "timelines": "#minecraft:universal",
   "has_fixed_time": true
 }

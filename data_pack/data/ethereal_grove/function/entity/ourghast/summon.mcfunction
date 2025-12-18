@@ -7,4 +7,4 @@ feet: {id:"netherite_boots",components:{enchantments:{blast_protection:255}, unb
 
 data modify storage ethereal_grove:temp ourghast set from entity @n[type=ghast,tag=ethereal_grove.ourghast,distance=..4]
 
-function ethereal_grove:entity/ourghast/summon_tentacles with storage ethereal_grove:temp ourghast
+function ethereal_grove:entity/ourghast/tentacles/summon with storage ethereal_grove:temp ourghast
