@@ -42,14 +42,14 @@
     "gameplay/bees_stay_in_hive": false,
     "gameplay/sky_light_level": 0.26666668,
     "visual/cloud_color": -15132378,
-    "minecraft:visual/fog_color": "#0f0f16",
-    "minecraft:visual/sky_color": "#000000",
+    "minecraft:visual/fog_color": "#eea2ff",
+    "minecraft:visual/sky_color": "#4b254b",
     "visual/moon_angle": 30,
-    "visual/sun_angle": -90,
+    "visual/sun_angle": -100,
     "visual/star_angle": 180,
     "visual/star_brightness": 0.5,
     "visual/sky_light_color": "#7a7aff",
-    "visual/sunrise_sunset_color": "#11330033"
+    "visual/sunrise_sunset_color": "#55991144"
   },
   "coordinate_scale": 1.0,
   "has_ceiling": false,
@@ -64,6 +64,5 @@
     "max_inclusive": 7,
     "min_inclusive": 0
   },
-  "timelines": "#minecraft:universal",
   "has_fixed_time": true
 }
