@@ -1,5 +1,9 @@
 # Ethereal Grove
 
+> [!IMPORTANT]
+> 
+> This project is being placed on hold. I haven't quite had any ideas going for this project, but feel free to suggest ideas/incentives. I will be diverting full attention to [Stellarity Enlightened](https://modrinth.com/mod/stellarity-enlightened)
+
 > [!CAUTION]
 > 
 > **Make sure to download the resource pack!**
@@ -11,10 +15,6 @@
 > **On Curseforge:** Files > `[version]` > Click Inside > Additional Files > Download `[version]-RP`
 > 
 > [In the datapack bundled as a mod version](https://www.curseforge.com/minecraft/mc-mods/ethereal-grove-mod) those all included for you. However, being able to reorder and merge resourcepacks is a limitation we cannot fix, and by downloading it, you accept this tradeoff.
-
-> [!IMPORTANT]
-> 
-> A discord server has been created for this project. Join [our discord](https://discord.gg/vFyGxuUsg9) now!
 
 We all have heard about The Twilight Forest, but it's an mod from the legacy days, isn't updated in as much as we want to, just feels like an ancient relic in general.
 
