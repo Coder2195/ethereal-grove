@@ -1,0 +1,42 @@
+{
+  "type": "tree",
+  "config": {
+    "dirt_provider": {
+      "type": "simple_state_provider",
+      "state": {
+        "Name": "redstone_block"
+      }
+    },
+    "decorators": [],
+    "trunk_placer": {
+      "base_height": 32,
+      "height_rand_a": 4,
+      "height_rand_b": 10,
+      "type": "fancy_trunk_placer"
+    },
+    "trunk_provider": {
+      "type": "simple_state_provider",
+      "state": {
+        "Name": "glowstone"
+      }
+    },
+    "minimum_size": {
+      "type": "two_layers_feature_size",
+      "limit": 1,
+      "lower_size": 1,
+      "upper_size": 2
+    },
+    "foliage_placer": {
+      "type": "minecraft:fancy_foliage_placer",
+      "height": 0,
+      "radius": 0,
+      "offset": 0
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "air"
+      }
+    }
+  }
+}

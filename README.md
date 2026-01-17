@@ -1,9 +1,5 @@
 # Ethereal Grove
 
-> [!IMPORTANT]
-> 
-> This project is being placed on hold. I haven't quite had any ideas going for this project, but feel free to suggest ideas/incentives. I will be diverting full attention to [Stellarity Enlightened](https://modrinth.com/mod/stellarity-enlightened)
-
 > [!CAUTION]
 > 
 > **Make sure to download the resource pack!**
