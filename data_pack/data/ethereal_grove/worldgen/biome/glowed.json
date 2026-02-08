@@ -1,122 +1,134 @@
 {
-  "carvers": [
-    "minecraft:cave",
-    "minecraft:cave_extra_underground",
-    "minecraft:canyon"
-  ],
-  "downfall": 0.4,
-  "attributes": {
-    "visual/fog_color": {
-      "argument": 16777215,
-      "modifier": "multiply"
-    },
-    "visual/sky_color": {
-      "argument": 14721470,
-      "modifier": "multiply"
-    },
-    "visual/water_fog_color": 6652415,
-    "minecraft:audio/music_volume": 1.0,
-    "audio/ambient_sounds": {
-      "mood": {
-        "block_search_extent": 8,
-        "offset": 2.0,
-        "sound": "minecraft:ambient.cave",
-        "tick_delay": 6000
-      }
-    },
-    "visual/ambient_particles": {
-      "argument": [
-        {
-          "particle": {
-            "type": "electric_spark"
-          },
-          "probability": 0.02
-        },
-        {
-          "particle": {
-            "type": "glow_squid_ink"
-          },
-          "probability": 0.001
-        },
-        {
-          "particle": {
-            "type": "firefly"
-          },
-          "probability": 0.005
-        }
-      ],
-      "modifier": "override"
-    }
-  },
-  "effects": {
-    "grass_color": 4730338,
-    "foliage_color": 6246140,
-    "dry_foliage_color": 4477175,
-    "water_color": 3479170
-  },
-  "features": [[], [], [], [], [], [], [], [], [], [], []],
-  "has_precipitation": true,
-  "spawn_costs": {},
-  "spawners": {
-    "ambient": [
-      {
-        "type": "minecraft:bat",
-        "maxCount": 8,
-        "minCount": 8,
-        "weight": 10
-      }
-    ],
-    "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:sheep",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 12
-      },
-      {
-        "type": "minecraft:pig",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:chicken",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:cow",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 8
-      },
-      {
-        "type": "minecraft:horse",
-        "maxCount": 6,
-        "minCount": 2,
-        "weight": 5
-      },
-      {
-        "type": "minecraft:donkey",
-        "maxCount": 3,
-        "minCount": 1,
-        "weight": 1
-      }
-    ],
-    "misc": [],
-    "monster": [],
-    "underground_water_creature": [
-      {
-        "type": "minecraft:glow_squid",
-        "maxCount": 6,
-        "minCount": 4,
-        "weight": 10
-      }
-    ],
-    "water_ambient": [],
-    "water_creature": []
-  },
-  "temperature": 0.8
+	"carvers": [
+		"minecraft:cave",
+		"minecraft:cave_extra_underground",
+		"minecraft:canyon"
+	],
+	"downfall": 0.4,
+	"attributes": {
+		"visual/fog_color": {
+			"argument": 16777215,
+			"modifier": "multiply"
+		},
+		"visual/sky_color": {
+			"argument": 14721470,
+			"modifier": "multiply"
+		},
+		"visual/water_fog_color": 6652415,
+		"minecraft:audio/music_volume": 1.0,
+		"audio/ambient_sounds": {
+			"mood": {
+				"block_search_extent": 8,
+				"offset": 2.0,
+				"sound": "minecraft:ambient.cave",
+				"tick_delay": 6000
+			}
+		},
+		"visual/ambient_particles": {
+			"argument": [
+				{
+					"particle": {
+						"type": "electric_spark"
+					},
+					"probability": 0.02
+				},
+				{
+					"particle": {
+						"type": "glow_squid_ink"
+					},
+					"probability": 0.001
+				},
+				{
+					"particle": {
+						"type": "firefly"
+					},
+					"probability": 0.005
+				}
+			],
+			"modifier": "override"
+		}
+	},
+	"effects": {
+		"grass_color": 4730338,
+		"foliage_color": 6246140,
+		"dry_foliage_color": 4477175,
+		"water_color": 3479170
+	},
+	"features": [
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		["ethereal_grove:glowed/glowstone_shrubs"],
+		[]
+	],
+	"has_precipitation": true,
+	"spawn_costs": {},
+	"spawners": {
+		"ambient": [
+			{
+				"type": "minecraft:bat",
+				"maxCount": 8,
+				"minCount": 8,
+				"weight": 10
+			}
+		],
+		"axolotls": [],
+		"creature": [
+			{
+				"type": "minecraft:sheep",
+				"maxCount": 4,
+				"minCount": 4,
+				"weight": 12
+			},
+			{
+				"type": "minecraft:pig",
+				"maxCount": 4,
+				"minCount": 4,
+				"weight": 10
+			},
+			{
+				"type": "minecraft:chicken",
+				"maxCount": 4,
+				"minCount": 4,
+				"weight": 10
+			},
+			{
+				"type": "minecraft:cow",
+				"maxCount": 4,
+				"minCount": 4,
+				"weight": 8
+			},
+			{
+				"type": "minecraft:horse",
+				"maxCount": 6,
+				"minCount": 2,
+				"weight": 5
+			},
+			{
+				"type": "minecraft:donkey",
+				"maxCount": 3,
+				"minCount": 1,
+				"weight": 1
+			}
+		],
+		"misc": [],
+		"monster": [],
+		"underground_water_creature": [
+			{
+				"type": "minecraft:glow_squid",
+				"maxCount": 6,
+				"minCount": 4,
+				"weight": 10
+			}
+		],
+		"water_ambient": [],
+		"water_creature": []
+	},
+	"temperature": 0.8
 }

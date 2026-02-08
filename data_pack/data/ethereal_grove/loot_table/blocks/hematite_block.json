@@ -1,0 +1,51 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "glow_item_frame",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"item_name": {
+									"translate": "block.ethereal_grove.hematite_block"
+								},
+								"custom_data": {
+									"ethereal_grove:item": "ethereal_grove:hematite_block"
+								},
+								"max_stack_size": 64,
+								"item_model": "ethereal_grove:hematite_block",
+								"entity_data": {
+									"id": "minecraft:glow_item_frame",
+									"Tags": [
+										"ethereal_grove.placed_block",
+										"smithed.entity",
+										"smithed.strict"
+									],
+									"Invisible": true,
+									"Invulnerable": true,
+
+									"data": {
+										"ethereal_grove:block": {
+											"id": "hematite_block",
+											"block": "iron_block",
+											"model": "ethereal_grove:hematite_block",
+											"loot_table": "ethereal_grove:blocks/hematite_block",
+											"place_sound": "block.iron.place",
+											"valid_placement": "all",
+											"rotation": "none"
+										}
+									}
+								},
+								"rarity": "common"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
