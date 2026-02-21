@@ -4,5 +4,7 @@ execute as @e[type=item_display,tag=ethereal_grove.portal] at @s positioned ~-1 
 
 execute as @e[type=ghast,tag=ethereal_grove.ourghast] at @s run function ethereal_grove:entity/ourghast/main_1s
 
+execute as @e[type=item_display,tag=ethereal_grove.block] at @s run function ethereal_grove:block/main_1s
 
 schedule function ethereal_grove:main_1s 20t replace
+

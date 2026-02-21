@@ -1,0 +1,1 @@
+function ethereal_grove:block/update_light
