@@ -4,7 +4,7 @@
 [![Wiki](https://img.shields.io/badge/wiki-Does%20Not%20exist%20yet!!!-orange?style=for-the-badge&logo=ReadMe&logoColor=white)](https://google.com)
 [![Modrinth](https://img.shields.io/modrinth/dt/ethereal-grove?label=Modrinth&logo=modrinth&style=for-the-badge)](https://modrinth.com/datapack/ethereal-grove)
 [![CurseForge](https://img.shields.io/curseforge/dt/1369948?style=for-the-badge&logo=curseforge&logoColor=FF5103&label=CurseForge%20(DATAPACK)&color=FF5103)](https://www.curseforge.com/minecraft/data-packs/ethereal-grove)
-[![CurseForge](https://img.shields.io/curseforge/dt/1372815?style=for-the-badge&logo=curseforge&logoColor=FF5103&label=CurseForge%20(DATAPACK%20PACKAGED%20AS%20A%20MOD)&color=FF5103)](https://www.curseforge.com/minecraft/mc-mods/ethereal-grove-mod)
+[![CurseForge](https://img.shields.io/curseforge/dt/1372815?style=for-the-badge&logo=curseforge&logoColor=FF5103&label=CurseForge%20(DATAPACK%20PACKAGED%20AS%20A%20MOD)&color=FF5103)](https://www.curseforge.com/minecraft/mc-mods/ethereal-grove)
 [![Forks](https://img.shields.io/github/forks/coder2195/ethereal-grove?style=for-the-badge&logo=github&color=green)](https://github.com/coder2195/ethereal-grove/forks)
 [![Stars](https://img.shields.io/github/stars/coder2195/ethereal-grove?style=for-the-badge&logo=github&color=yellow)](https://github.com/coder2195/ethereal-grove/stargazers)
 [![Code Size](https://img.shields.io/github/languages/code-size/coder2195/ethereal-grove?style=for-the-badge&color=purple&logoColor=white)](https://github.com/coder2195/ethereal-grove)
